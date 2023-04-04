@@ -1,0 +1,26 @@
+﻿<Page x:Class="BoyarskiyAirport.Pages.PassangerPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:BoyarskiyAirport.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="PassangerPage">
+
+    <Grid>
+        <DataGrid x:Name="dataGrid" 
+                  AutoGenerateColumns="False"             
+                 >
+            <DataGrid.Columns >
+                <DataGridTextColumn Header="ID"  Binding="{Binding id }"/>
+                <DataGridTextColumn Header="LastName"  Binding="{Binding LastName }"/>
+                <DataGridTextColumn Header="FirsName"  Binding="{Binding  FirstName }"/>
+                <DataGridTextColumn Header="BirhtDate"  Binding="{Binding BirthDate }"/>
+                <DataGridTextColumn Header="Gender"  Binding="{Binding Gender1.GenderName}"/>
+                <DataGridTextColumn Header="DocNumber"  Binding="{Binding  DocNumber }"/>
+                <DataGridTextColumn Header="idUser"  Binding="{Binding   idUser }"/>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Page>

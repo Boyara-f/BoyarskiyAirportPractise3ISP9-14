@@ -1,0 +1,11 @@
+﻿<Application x:Class="BoyarskiyAirport.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:BoyarskiyAirport"
+             StartupUri="Windows/AuthorizationWindow.xaml">
+    <!--AuthorizationWindow-->
+    <!--AdminMainWin--> <!--UserMainWindow-->
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>
